@@ -1,3 +1,5 @@
+const eqArrays = require('./eqArrays');
+
 const assertArraysEqual = function(array1, array2) {
 
   let pass_flag = true;
@@ -20,4 +22,5 @@ const assertArraysEqual = function(array1, array2) {
   }
 }
 
-assertArraysEqual([3],[4]);
+module.exports = assertArraysEqual;
+
