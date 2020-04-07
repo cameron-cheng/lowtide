@@ -1,3 +1,3 @@
-const assertArraysEqual = require('../assertArraysEqual');
+const {assertArraysEqual} = require('../index.js');
 
 assertArraysEqual([3],[4]);
